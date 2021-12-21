@@ -1,0 +1,94 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#nav a{
+    margin-right: 20px;
+}
+#nav a.topimage{
+
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 10px;
+}
+#middle
+{
+     /* margin-top: 150px;  */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+#logo
+{
+    text-align: center;
+} 
+ #searchbarcontainer{
+    margin-top: 20px;
+    text-align: center;
+} 
+#searchbar
+{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 400px;
+    border-radius: 15px;
+    border: 1px solid #d3d0d0;
+}
+#searchbar:hover{
+    box-shadow: 0 0 10px 2px black;
+}
+#buttons {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 5px ;
+    cursor: pointer;
+    background: rgb(223, 222, 218);
+    border-radius: 3px;
+    border: 2px solid transparent;
+}
+#links {
+    margin-top: 15px;
+    
+    
+    
+    text-align: center;
+}
+#links a{
+    margin-right: 10px;
+    font-size: small;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.button:hover{
+    box-shadow: 0 0 2px 1px rgb(34, 31, 31);
+    border: 2px solid #eee;
+}
+#footer-content{
+    background: #eee;
+    border-top: 1px solid black;
+}
